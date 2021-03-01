@@ -1,0 +1,30 @@
+{
+    "name": "soft-gallery",
+    "description": "Media Manager, Multiple images",
+    "require": {
+        "larapack/hooks": "^1.0.12"
+    },
+    "tags": [
+        "voyager",
+        "FormField",
+        "media-manager",
+        "multiple images attributes"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "amine-damani",
+        "email": "damaniamine00@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "SoftGallery\\": "src/"
+        }
+    },
+    "extra": {
+        "hook": {
+            "providers": [
+                "SoftGallery\\SoftGalleryServiceProvider"
+            ]
+        }
+    }
+}
