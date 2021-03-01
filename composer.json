@@ -2,7 +2,7 @@
     "name": "soft-gallery",
     "description": "Media Manager, Multiple images",
     "require": {
-        "larapack/hooks": "^1.0.12"
+        "larapack/hooks": "^1.0.5"
     },
     "tags": [
         "voyager",
